@@ -26,4 +26,10 @@ window.onload = function() {
       e.preventDefault();
       addComment("14/6/22: " + obj.Comment)
     }
+
+    var TicketsTaken = 4;
+    var TicketsTotal = 6;
+
+    document.getElementById("Tickets").innerHTML = TicketsTaken + " / " + TicketsTotal;
+
   }
